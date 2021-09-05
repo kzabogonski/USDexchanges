@@ -21,9 +21,6 @@ public class Main {
         String USD_in, USD_out;
         USD_in = nak.substring(9,15);
         USD_out = nak.substring(28, 34);
-        System.out.println(nak);
-        System.out.println(USD_in);
-        System.out.println(USD_out);
 
         Double uin = Double.parseDouble(USD_in);
         Double uout = Double.parseDouble(USD_out);
